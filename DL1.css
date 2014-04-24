@@ -1,0 +1,102 @@
+body {
+background-color: #00FFFF;
+}
+img.header {
+margin-left: auto;
+margin-right: auto;
+display: block;
+}
+.head1 {
+font-family: impact;
+color: yellow;
+text-shadow: 1px 0 0 #000, 0 -1px 0 #000, 0 1px 0 #000, -1px 0 0 #000;
+text-align: center;
+font-size: 38pt;}
+.head2 {
+font-family: impact;
+color: yellow;
+text-shadow: 1px 0 0 #000, 0 -1px 0 #000, 0 1px 0 #000, -1px 0 0 #000;
+text-align: center;
+font-size: 24pt;}
+.login {
+border: 1px solid black;
+border-radius: 20px;
+-webkit-border-radius: 20px;
+-moz-border-radius: 20px;
+border-radius: 20px;
+margin-left: 30%;
+margin-right: 30%;}
+.home {
+border: 1px solid black;
+margin-left: 30%;
+margin-right: 30%;
+}
+/*start of example css*/
+* {
+    font-family:verdana,sans-serif;
+    font-size  :14pt; }
+
+body {
+	 width     :700px;
+	 margin    :7px auto;
+    border    :1px solid #888; }
+
+html {
+    background:#fff }
+
+img.menu,img.button {
+    border            :1px solid black;
+    margin-right      :15px;
+	 -moz-box-shadow   :2px 2px 2px #888;
+	 -webkit-box-shadow:2px 2px 2px #888;
+	 box-shadow        :2px 2px 2px #888; }
+
+li a ,.button{
+    text-decoration:none;
+	color           : #FF00FF;
+	}
+
+li a:hover, .button:hover{
+    color: #0066CC;	}
+ 
+
+.fieldname {
+    float:left;
+    width:120px; }
+	 
+.main {
+    margin-left:40px; }
+
+.info {
+    background :#FF66FF;
+    color      :black;
+	 border     :1px solid green;
+	 padding    :5px 10px;
+	 border-radius     :5px;
+	 -moz-box-shadow   :2px 2px 2px #888;
+	 -webkit-box-shadow:2px 2px 2px #888;
+	 box-shadow        :2px 2px 2px #888;	 }
+
+.menu li, .button {
+    display           :inline;
+    padding           :6px;
+    border            :1px solid #777;
+    background        :yellow;
+    margin-right      :8px;
+	 border-radius     :5px;
+	 -moz-box-shadow   :2px 2px 2px #888;
+	 -webkit-box-shadow:2px 2px 2px #888;
+	 box-shadow        :2px 2px 2px #888; }
+
+.subhead {
+    font-weight:bold; }
+
+.taken, .error {
+    color:red; }
+
+.available {
+    color:green; }
+
+.whisper {
+    font-style:italic;
+    color     :#006600; }
